@@ -36,3 +36,14 @@ function calculator(fun: any): void{
 }
 
 calculator(add);
+
+// Fucntions returns another back
+function calculator2(): any{
+    function subtraact(num1: number, num2: number): number{
+        return num1 - num2;
+    }
+    return subtraact;
+}
+
+var sub = calculator2();
+console.log(sub(20, 5));
