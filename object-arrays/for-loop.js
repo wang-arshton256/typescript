@@ -6,5 +6,5 @@ var student = {
 };
 for (var details in student) {
     console.log(details);
-    console.log(student[name]);
+    console.log(student[details]); // passing specific index to access particular details
 }
