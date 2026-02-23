@@ -5,6 +5,6 @@ const product = function (x:Number, y:number):Number{
 // pruduct variable can not be delcared againg since it 
 // has already been assigned to const prefix.
 product = function (x: Number, y: number): number{
- retuen x * y;   
+ return x * y;   
 }
 console.log(product);
