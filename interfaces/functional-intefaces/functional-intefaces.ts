@@ -1,5 +1,5 @@
 interface Add{
-    (x:number, y:number):void
+    (x:number, y:number):void // If you dont declare a particular return type ducing interface declaration, you can assign any return type to the function. However if you declare a specifc retrurn type durng the object declaration, you must maintain it throughout.
 }
 
 interface Sub{
