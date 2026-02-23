@@ -47,3 +47,13 @@ function calculator2(): any{
 
 var sub = calculator2();
 console.log(sub(20, 5));
+
+// Annonymous functions
+var wang = function(greeting:string): string{
+    return "Hello from " + greeting;
+}
+console.log(wang("Annonymous Function"));
+
+
+
+
