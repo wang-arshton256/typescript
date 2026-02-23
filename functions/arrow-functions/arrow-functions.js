@@ -10,4 +10,4 @@ console.log(profile("Wangutusi Arshton"));
 var product = function (num1, num2) {
     return num1 * num2;
 };
-console.log(product(45, 79));
+console.log("Product is", product(45, 79));
