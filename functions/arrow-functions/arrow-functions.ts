@@ -5,6 +5,12 @@ console.log(greeting())
 
 // Passing Parameters
 var profile = (name:string): string => {
-    return "Wangutusi Arshton";
+    return "Hello " + name;
 }
-console.log(profile());
+console.log(profile("Wangutusi Arshton"));
+
+
+var product = (num1:number, num2:number): number => {
+    return num1 * num2;
+}
+console.log(product(45, 79));
