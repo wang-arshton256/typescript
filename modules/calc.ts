@@ -25,3 +25,10 @@ import { Calculator } from "./class-modules";
 var calc = new Calculator();
 console.log(calc.add(2, 78));
 console.log(calc.sub(2, 78));
+
+
+// Aliasing class modules
+import { Calculator as cal } from "./class-modules";
+var calc = new Calculator();
+console.log(calc.add(2, 78));
+console.log(calc.sub(2, 78));
