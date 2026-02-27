@@ -6,3 +6,5 @@ console.log(expiryDate1.getDate()); // To get current date
 console.log(expiryDate1.getHours()); //  To get current time in hours
 console.log(expiryDate1.getMinutes()); // To get current time in minutes
 console.log(expiryDate1.toTimeString()); // To get current time and pas it as a string
+expiryDate.setDate(20); // To set date and the day
+console.log(expiryDate);
